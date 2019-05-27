@@ -1,8 +1,7 @@
 {
   "name": "language-allocation",
   "version": "0.1.0",
-  "private": true,
-  "proxy": "http://localhost:5000/",
+  "private": true,,
   "engines": {
     "node": "10.3.0"
   },
