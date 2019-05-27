@@ -1,7 +1,7 @@
 {
   "name": "language-allocation",
   "version": "0.1.0",
-  "private": true,,
+  "private": true,
   "engines": {
     "node": "10.3.0"
   },
