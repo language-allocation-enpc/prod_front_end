@@ -1,0 +1,83 @@
+.course_info{
+    overflow-y: scroll;
+    margin: 1vh 1vw;
+    border: 0.2em solid rgb(0, 0, 0);
+    border-radius: 0.5em;
+    background-color: white;
+    text-align: center;
+    display:grid;
+    grid-template: 10fr 1fr;
+    grid-template-columns: 10fr 1fr;
+}
+
+.champs{
+    display:inline-flex;
+}
+
+.attribut{
+    margin-left: 10px;
+}
+
+
+.name{
+    text-align: center;
+    text-decoration:underline;
+
+}
+
+.caractéristiques{
+    font-weight: bold;
+}
+
+.cours_L{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.Button{
+    size: fit-content;
+    font-size: large;
+}
+
+.img_button{
+    text-align: center;
+    margin: auto;
+}
+
+.main-container{
+    min-height:930px;
+    text-align:center;
+    width:auto;
+
+}
+
+.Title{
+    box-sizing: border-box;
+    border: 3px solid black;
+    background:rgb(0, 255, 136);
+    display: block;
+}
+
+.texte{
+    color:white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.course-list-filter-option{
+    text-align: center;
+}
+
+.cat{
+    color:white;
+    font-size:x-large;
+    text-shadow: #000000 1px 1px 2px, #000000 -1px 1px 2px, #000000 -1px -1px 2px, #000000 1px -1px 2px;
+}
+
+.nom_cours{
+    color:white;
+    font-size:xx-large;
+    text-shadow: #000000 1px 1px 5px, #000000 -1px 1px 5px, #000000 -1px -1px 5px, #000000 1px -1px 5px;
+
+}

@@ -1,0 +1,40 @@
+
+.login-page{
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+}
+
+.login-page-welcome-message{
+    display: grid;
+    grid-row: 1;
+
+    text-align: center;
+}
+
+.login-page-form-box{
+    display: grid;
+    grid-row: 2;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.login-page-form{
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-row-gap: 2vh;
+
+    font-size: x-large;
+
+    border: 0.01em solid #ccc;
+    border-radius: 0.5em;
+    padding: 2vh 2vw;
+}
+
+.login-page-form-field{
+    width: 15em;
+}
+
+.login-page-form-button{
+    width: fit-content;
+}
